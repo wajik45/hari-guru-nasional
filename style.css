@@ -67,6 +67,7 @@ font-family: 'Sono', sans-serif;
     opacity: 0;
     color:rgb(1, 41, 46);
     transition: 1s;
+    cursor: pointer;
  }
  .kotak-dua {
    width: 300px;
@@ -110,22 +111,23 @@ font-family: 'Sono', sans-serif;
  .nasional {
    transform: translateX(240px);
  }
- .hero, .logo {
-   position: absolute;
-   opacity: .8;
-   transition: 1s;
- }
 .hero {
    align-self: flex-start;
    width: 150px;
    margin-bottom: 350px;
    opacity: 0;
+   position: absolute;
+   transition: 1s;
+}
+.otw {
+   position: absolute;
+   align-self: flex-end;
+   margin-bottom: 340px;
 }
 .logo {
-   align-self: flex-end;
    width: 50px;
-   margin-bottom: 340px;
    opacity: 0;
+   transition: 1s;
 }
 
  /* js */
